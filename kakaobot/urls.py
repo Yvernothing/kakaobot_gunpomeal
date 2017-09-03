@@ -17,6 +17,6 @@ Including another URLconf
 from django.conf.urls import url, include 
 
 urlpatterns = [
-    # hyoammeal 폴더안의 urls.py를 불러옵니다.
-    url(r'',include('hyoammeal.urls')),
+    # gunpomeal 폴더안의 urls.py를 불러옵니다.
+    url(r'',include('gunpomeal.urls')),
 ]
